@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Serif+4:ital,opsz@1,8..60&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.sidebar {
+    position: absolute;
+    background-color: rgb(214, 214, 214);
+    width: 250px;
+    font-family: 'Fira Sans', sans-serif;
+    height: 100vh;
+    transition: transform 0.3s ease-in;
+}
+
+.sidebar nav {
+    padding: 45px;
+
+}
+
+.sidebar nav li {
+    list-style: none;
+    font-size: 30px;
+    padding: 30px 0px;
+
+
+}
+
+.sidebar nav li a {
+    text-decoration: none;
+    color: black;
+}
+
+.main {
+    width: 90vw;
+}
+
+.container {
+    display: flex;
+}
+
+.contactform {
+    padding: 0px 40px;
+    padding-top: 150px;
+    font-family: 'Fira Sans', sans-serif;
+
+}
+
+.contactform h1 {
+    font-family: 'Source Serif 4',
+        serif;
+    padding: 16px 0px;
+}
+
+.contactform form div {
+    padding: 8px 0px;
+    display: flex;
+    flex-direction: column;
+    font-size: 24px;
+}
+
+.contactform form div input {
+    width: 20vw;
+    border-radius: 5px;
+    margin: 6px 0px 0px 0px;
+    padding: 3px;
+}
+
+
+#emailHelp {
+    font-size: 15px;
+    color: red;
+    margin: 0 5px;
+}
+
+#form-check {
+    flex-direction: row;
+}
+
+#form-check input {
+    width: 10px;
+    margin: 7px 7px;
+
+}
+
+.btn {
+    padding: 9px 14px;
+    border-radius: 22px;
+    color: white;
+    background-color: cadetblue;
+    font-weight: bold;
+    font-size: 16px;
+    margin: 0 3px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: grey;
+    color: black;
+}
+
+.ham1 {
+    position: absolute;
+    cursor: pointer;
+    top: 10px;
+    left: 10px;
+}
+
+.wrong {
+    margin-left: 215px;
+    margin-top: 8px;
+}
+
+.sidebargo {
+    transform: translate(-443px, 0px);
+    position: absolute;
+}

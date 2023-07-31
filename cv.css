@@ -1,0 +1,43 @@
+
+
+.main{
+    font-size: 17px;
+    line-height: 2;
+    background-color: aqua;
+    color: black;
+    padding: 10px;
+    border: 2px solid black;
+    font-weight: 300;
+    margin-bottom: 750px;
+}
+
+.main img{
+    display: flex;
+    align-items: center;
+    max-width: 100%;
+    margin-left: 1200px;
+}
+
+
+h1{
+ text-align: center;
+}
+
+
+h4{
+    margin-bottom: 0;
+    font-size: 20px;
+}
+
+h5{
+    margin:0px 5px;
+    font-size: 17px;
+}
+h6{
+    margin: 0 5px;
+    font-size: 17px;
+}
+
+p{
+    margin: 0;
+}

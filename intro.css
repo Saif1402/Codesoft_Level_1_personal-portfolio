@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Serif+4:ital,opsz@1,8..60&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.sidebar {
+    position: absolute;
+    background-color: rgb(214, 214, 214);
+    width: 350px;
+    font-family: 'Fira Sans', sans-serif;
+    height: 100vh;
+    transition: transform 0.3s ease-in;
+}
+
+.sidebar nav {
+    padding: 45px;
+
+}
+
+.sidebar nav li {
+    list-style: none;
+    font-size: 30px;
+    padding: 30px 0px;
+
+
+}
+
+.sidebar nav li a {
+    text-decoration: none;
+    color: black;
+}
+
+.main {
+    width: 90vw;
+}
+
+.container {
+    display: flex;
+}
+
+h2 {
+    font-family: 'Fira Sans',
+        sans-serif;
+    margin: 15px;
+}
+
+p {
+    font-family: 'Fira Sans',
+        sans-serif;
+    margin: 15px;
+}
+
+.skillcontainer {
+    padding: 15px;
+}
+
+.skillitems {
+    display: flex;
+    margin: 5px;
+    padding: 5px;
+    align-items: center;
+
+}
+
+.skill {
+    width: 270px;
+    height: 10px;
+    background-color: red;
+    margin-bottom: 5px;
+    border: 2px solid black;
+}
+
+.t1 {
+    width: 265px;
+    background-color: aqua;
+}
+
+.t2 {
+    width: 150px;
+    background-color: green;
+}
+
+.t3 {
+    width: 300px;
+    background-color: coral;
+}
+
+.ham1 {
+    position: absolute;
+    cursor: pointer;
+    top: 10px;
+    left: 10px;
+}
+
+.wrong {
+    margin-left: -185px;
+    margin-top: 8px;
+}
+
+.sidebargo {
+    transform: translate(-443px, 0px);
+    position: absolute;
+}
